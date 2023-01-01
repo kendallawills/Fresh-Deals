@@ -30,3 +30,37 @@
     background-size: cover;
     background-position: center;
 }
+
+@media only screen and (max-width: 1020px) {
+    .landing .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .landing .product-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .hero {
+        padding-left: 0;
+        text-align: center;
+    }
+  
+    .hero h2 {
+        padding-top: 7rem;
+    }
+  
+    .hero p {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .landing .product-list {
+        grid-template-columns: 1fr;
+    }
+}
