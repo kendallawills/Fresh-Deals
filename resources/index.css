@@ -1,0 +1,32 @@
+.hero {
+    width: 100%;
+    height: 21.75rem;
+    color: hsla(0, 0%, 100%, 1);
+    text-align: left;
+    padding-left: 10rem;
+}
+
+.blueberry {
+    background-image: url("images/blueberry-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-family: "PT Serif", serif;
+    font-size: 2.25rem;
+    padding-top: 10rem;
+}
+
+.hero p {
+    width: 34.125rem;
+    line-height: 1.5;
+}
+
+.index {
+    background-image: url("images/grapes.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
