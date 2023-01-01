@@ -168,6 +168,12 @@ nav a:visited {
     margin-bottom: 2rem;
 }
 
+#main .button {
+    width: 14.375rem;
+    box-sizing: border-box;
+    padding: .875rem 0;
+}
+
 /* PRODUCT LIST */
 
 .product-list-section {
@@ -214,3 +220,49 @@ nav a:visited {
 }
 
 /* FORM FIELD WITH LABEL */
+
+/* FOOTER */
+
+footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem 0;
+    padding: 1.5rem;
+}
+
+footer img {
+    align-self: center;
+    justify-self: center;
+}
+
+footer .links {
+    display: grid;
+    grid-gap: .75rem;
+}
+
+footer a {
+    color: hsla(88, 100%, 25%, 1);
+}
+
+@media only screen and (max-width: 810px) {
+    footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
+    footer img {
+        grid-column: 1 / span 3;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+  
+    footer img {
+        grid-column: auto;
+    }
+}
