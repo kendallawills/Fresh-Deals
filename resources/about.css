@@ -1,0 +1,57 @@
+.about h1 {
+    width: 100%;
+    font-family: "PT Serif", serif;
+    font-size: 9rem;
+    color: hsla(0, 0%, 100%, 1);
+    background-image: url("images/blueberry-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 10.5rem 0;
+}
+
+.about .information {
+    color: hsla(0, 0%, 29%, 1);
+    padding: 3.75rem 20% 6.75rem 20%;
+}
+
+.about h3 {
+    font-size: 1.625rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    padding-bottom: 2rem;
+}
+
+.about .join {
+    background-color: hsla(0, 0%, 100%, 1);
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+    display: grid;
+    justify-items: center;
+    padding: 1.5rem 0;
+}
+
+@media only screen and (max-width: 735px) {
+    .about h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .about h1 {
+        font-size: 4rem;
+    }
+  
+    .about h3 {
+        font-size: 1.25rem;
+    }
+  
+    .about p {
+        font-size: 1rem;
+    }
+}
