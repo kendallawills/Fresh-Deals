@@ -221,6 +221,15 @@ nav a:visited {
 
 /* FORM FIELD WITH LABEL */
 
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field label {
+    padding-bottom: .75rem;
+}
+
 /* FOOTER */
 
 footer {
